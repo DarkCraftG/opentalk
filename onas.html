@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O nás - OpenTalk Hub</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f8f9fa; /* Světlejší odstín šedé pro příjemný kontrast */
+            color: #333;
+        }
+
+        header {
+            background-color: #2ecc71; /* Teal barva pro živost */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px; /* Zvětšený font pro výraznější nadpis */
+        }
+
+        header img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        #about-section {
+            padding: 20px;
+            background-color: #fff;
+            color: #333;
+            border-radius: 8px; /* Zaoblené rohy pro příjemnější vzhled */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Jemný stín pro zdůraznění obsahu */
+            margin: 20px;
+        }
+
+        #about-section h1 {
+            font-size: 36px; /* Zvětšený nadpis pro důraz */
+            color: #2ecc71; /* Barevný důraz na nadpis */
+            margin-bottom: 15px;
+        }
+
+        #about-section p {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        #about-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #about-section li {
+            margin-bottom: 10px;
+        }
+
+        #about-section a {
+            color: #3498db; /* Modrá pro odkazy */
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s; /* Plynulá změna barvy při najetí myší */
+        }
+
+        #about-section a:hover {
+            color: #2980b9; /* Změněná barva při najetí myší pro interaktivitu */
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #2ecc71;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: auto;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        #link {
+            display: block;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="chat.png" alt="OpenTalk Hub Logo">
+        <span onclick="refreshPage()">OpenTalk.Hub-O nás</span>
+    </header>
+
+    <div id="about-section">
+        <h1>O nás</h1>
+        <p>Vítejte na OpenTalk.Hub - inovativní platformě pro komunikaci, která je navržena a spravována v České republice. OpenTalk.Hub vzniklo s vizí vytvořit místo, kde můžete svobodně vyjádřit své myšlenky a komunikovat s lidmi z celého světa.</p>
+        <p>Proč používat OpenTalk.Hub?</p>
+        <ul>
+            <li><strong>Svoboda projevu:</strong> Na OpenTalk.Hub věříme v důležitost svobody projevu. Každý má právo vyjádřit své myšlenky a názory bez cenzury.</li>
+            <li><strong>Komunita bez hranic:</strong> Jsme globální platformou, kde se můžete setkat s lidmi z různých koutů světa a sdílet své zážitky a kulturu.</li>
+            <li><strong>Neustálý vývoj:</strong> OpenTalk.Hub je stále ve vývoji. Pracujeme na vylepšeních a nových funkcích, abychom zajistili optimální zážitek pro naše uživatele.</li>
+            <li><strong>Jednoduchost a zábava:</strong> OpenTalk.Hub je navrženo s ohledem na jednoduchost a zábavu. Chceme, aby naše platforma byla příjemným místem pro každodenní interakce.</li>
+        </ul>
+
+        <a id="link" href="index.html">Zpět do konverzace</a>
+        <a id="link" href="https://www.youtube.com/channel/UCWWlNf6H5I1vYkbgX8YrtyQ">OpenTalk-Youtube</a>
+        <a id="link" href="https://www.youtube.com/channel/UCpa1MGc_ax9LbVwd5zk4RTA">Kitsune-Youtube</a>
+    </div>
+
+    <footer>
+      <footer>
+          OpenTalk by Kitsune | <a href="onas.html">O nás</a> |
+          <a href="Podporit.html">Podpořit</a> |
+          <a href="Pravidla.html">Pravidla</a> |
+          <a href="Podpora.html">Podpora</a> |
+          <a href="Svet.html">Svet</a> |
+          <a href="Udalosti.html">Události</a>
+      </footer>
+    </footer>
+
+</body>
+</html>

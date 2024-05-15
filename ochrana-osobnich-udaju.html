@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenTalk Hub - Ochrana osobních údajů</title>
+    <link rel="icon" href="chat.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        #privacy-container {
+            padding: 20px;
+            background-color: #fff;
+            color: #333;
+            text-align: justify;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+
+        #privacy-container h2 {
+            font-size: 2.5rem;
+            color: #4caf50;
+        }
+
+        #privacy-container p {
+            font-size: 1.125rem;
+            margin-bottom: 15px;
+        }
+
+        #privacy-container p strong {
+            font-weight: bold;
+        }
+
+        #privacy-container ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #privacy-container li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: auto;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        #link {
+            color: #4caf50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="chat.png" alt="OpenTalk Hub Logo">
+        <span onclick="refreshPage()">OpenTalk.Hub - Ochrana osobních údajů</span>
+    </header>
+
+    <div id="privacy-container">
+        <h2>Ochrana osobních údajů na OpenTalk.hub</h2>
+
+        <p>
+            Vítáme vás na stránce věnované ochraně osobních údajů na platformě OpenTalk.Hub.
+            Tato stránka obsahuje informace o tom, jak shromažďujeme, používáme a chráníme vaše osobní údaje.
+            Přečtěte si prosím naše zásady ochrany osobních údajů pečlivě.
+        </p>
+
+        <ul>
+            <li>
+                <p>
+                    <strong>Shromažďování údajů:</strong> Při používání naší platformy automaticky souhlasíte s tím, že shromažďujeme určité údaje,
+                    včetně cookie, URL adres a emoji. Tato data jsou shromažďována s vysokým standardem ochrany osobních údajů.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Použití dat:</strong> Data shromažďovaná naší platformou mohou být použita k vylepšení uživatelské zkušenosti a
+                    našich služeb. Mějte na paměti, že data mohou být poskytnuta orgánům činným v trestním řízení na základě platných zákonů.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Smlouva o používání souborů cookie:</strong> Při používání na naší platformě automaticky souhlasíte se smlouvou o
+                    používání souborů cookie, která nám umožňuje ukládat soubory cookie a další technologie na vašem zařízení.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Použití u policie a dalších orgánů:</strong> Mějte na vědomí, že v určitých případech můžeme poskytnout data orgánům
+                    činným v trestním řízení v souladu s platnými zákony a předpisy.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Zabezpečení dat:</strong> Vaše bezpečnost a soukromí jsou pro nás prioritou. Používáme moderní bezpečnostní opatření
+                    k ochraně vašich osobních údajů.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Práva uživatelů:</strong> Máte právo požadovat informace o tom, jaké údaje shromažďujeme, a v některých případech
+                    můžete požadovat opravu nebo smazání svých údajů.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Změny v zásadách ochrany osobních údajů:</strong> Zůstáváme oprávněni aktualizovat naše zásady ochrany osobních údajů
+                    v souladu s vývojem naší platformy a platnými zákony.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Transparentnost:</strong> Snažíme se být co nejvíce transparentní ohledně našich postupů shromažďování a používání údajů.
+                </p>
+            </li>
+        </ul>
+
+        <a id="link" href="index.html">Zpět do konverzace</a>
+    </div>
+
+    <footer>
+        OpenTalk by Kitsune | <a href="onas.html">O nás</a> |
+        <a href="Podporit.html">Podpořit</a> |
+        <a href="Pravidla.html">Pravidla</a> |
+        <a href="Podpora.html">Podpora</a> |
+        <a href="Svet.html">Svet</a>
+    </footer>
+
+</body>
+
+</html>

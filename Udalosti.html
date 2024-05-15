@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenTalk Hub - Události</title>
+    <link rel="icon" href="chat.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f8f9fa; /* Světlejší odstín šedé pro příjemný kontrast */
+            color: #333;
+        }
+
+        header {
+            background-color: #28a745; /* Zelená barva pro živost a přívětivost */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px; /* Zvětšený font pro výraznější nadpis */
+        }
+
+        header img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        #rules-container {
+            padding: 20px;
+            background-color: #fff;
+            color: #333;
+            max-width: 800px; /* Rozšíření šířky pro lepší čitelnost pravidel */
+            margin: auto;
+            border-radius: 8px; /* Zaoblené rohy pro příjemnější vzhled */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Jemný stín pro zdůraznění obsahu */
+            margin-top: 20px;
+        }
+
+        .rule {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #28a745; /* Zelená barva pro výraznost nadpisu pravidla */
+        }
+
+        footer {
+            background-color: #28a745;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: auto;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #218838; /* Změněná barva při najetí myší pro interaktivitu */
+        }
+
+        #link {
+            display: block;
+            margin-top: 20px;
+            color: #28a745; /* Zelená barva pro výraznost odkazu */
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        #link:hover {
+            color: #218838; /* Změněná barva při najetí myší pro interaktivitu */
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="chat.png" alt="OpenTalk Hub Logo">
+        <span onclick="refreshPage()">OpenTalk.Hub-Události</span>
+    </header>
+
+    <div id="rules-container">
+      <div class="event">
+        <h3>1. Úspěch: Dosáhnutí 50 online uživatelů</h3>
+        <p>jsme dosáhli skvělého milníku - 50 uživatelů bylo online zároveň!</p>
+      </div>
+
+      <div class="event">
+        <h3>2. Důležitá změna: Možnost volby jména</h3>
+        <p>Zavedli jsme novou funkci! Nyní můžete vybírat své uživatelské jméno při přihlašování.</p>
+      </div>
+
+      <div class="event">
+        <h3>3. Důležitá změna: Ukládání historie chatu</h3>
+        <p>Pro zlepšení vaší chatovací zkušenosti nyní ukládáme historii chatu a umožňujeme vám se do ní vrátit.</p>
+      </div> udelej dalši a přidej tam ze možnosti jmena byly přidani kvuli tomu že se tu stalo že 
+      
+  <div class="event">
+    <h3>4. Důležitá změna: Zlepšení bezpečnosti - Možnost výběru jména</h3>
+    <p>Chceme zajistit bezpečné a příjemné prostředí pro všechny uživatele. Nyní můžete vybírat své uživatelské jméno, což nám pomůže v prevenci nevhodného chování.</p>
+  </div>
+
+      <a id="link" href="index.html">Zpět do konverzace</a>
+      
+
+    <footer>
+        OpenTalk by Kitsune | <a href="onas.html">O nás</a> |
+        <a href="Podporit.html">Podpořit</a> |
+        <a href="Pravidla.html">Pravidla</a> |
+        <a href="Podpora.html">Podpora</a> |
+        <a href="Svet.html">Svet</a> |
+        <a href="Udalosti.html">Události</a>
+    </footer>
+
+</body>
+</html>
